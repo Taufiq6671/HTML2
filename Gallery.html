@@ -1,0 +1,166 @@
+</html>
+
+<head>
+  <title>GALLERY</title>
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Taufiq</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('wp2499305.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    nav {
+      background: rgba(31, 31, 31, 0.95);
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: dark grey;
+    }
+
+    nav {
+      background: darkgreen;
+      padding: 15px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+      transition: color 0.8s ease, transform 0.8s ease;
+    }
+
+    nav a:hover {
+      color: rgb(75, 201, 111);
+      transform: scale(1.1);
+    }
+
+    nav a:not(:last-child)::after {
+      content: "⚜";
+      margin-left: 20px;
+      color: gold;
+    }
+
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      text-shadow: 1px 1px 5px #000;
+      margin-bottom: 10px;
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: darkgreen;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Biodata.html">Profile</a>
+    <a href="Education.html">Academic</a>
+    <a href="Experience.html">Experience</a>
+    <a href="Hobby.html">Hobby</a>
+    <a href="Gallery.html">Gallery</a>
+  </nav>
+
+
+  <header>
+    <h1><em>My Gallery</em></h1>
+  </header>
+
+
+  <div class="gallery-container">
+    <div class="gallery-item"><img src="MYSELF.jpg" alt="Myself 1"></div>
+    <div class="gallery-item"><img src="MYSELF (2).jpg" alt="Myself 2"></div>
+    <div class="gallery-item"><img src="MYSELF (3).jpg" alt="Myself 3"></div>
+    <div class="gallery-item"><img src="MYSELF (4).jpg" alt="Myself 4"></div>
+    <div class="gallery-item"><img src="MYSELF (5).jpg" alt="Myself 5"></div>
+    <div class="gallery-item"><img src="MYSELF (6).jpg" alt="Myself 6"></div>
+    <div class="gallery-item"><img src="MYSELF (7).jpg" alt="Myself 7"></div>
+    <div class="gallery-item"><img src="MYSELF (8).jpg" alt="Myself 8"></div>
+    <div class="gallery-item"><img src="MYSELF (9).jpg" alt="Myself 9"></div>
+    <div class="gallery-item"><img src="MYSELF (10).jpg" alt="Myself 10"></div>
+    <div class="gallery-item"><img src="MYSELF (11).jpg" alt="Myself 9"></div>
+    <div class="gallery-item"><img src="MYSELF (12).jpg" alt="Myself 10"></div>
+  </div>
+
+
+  <footer>
+    MOHAMMAD TAUFIQ FIRDAUSY BIN ARAS &nbsp; | &nbsp; Matrik: 241570011
+  </footer>
+
+</body>
+
+</html>
